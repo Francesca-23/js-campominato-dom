@@ -1,0 +1,44 @@
+.big-box{
+    height: 100vh;
+}
+
+main{
+    background-color: aquamarine;
+    height: 80%;
+}
+
+.griglia{
+    height: 100%;
+    cursor: pointer;
+}
+
+.box-1{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-3{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blu{
+    background-color: dodgerblue;
+}
