@@ -38,10 +38,10 @@ function createDiv(elemento, classi, testo){
 let griglia = document.querySelector('.griglia');
 
 
-let rating = 0;
-
 //funzione per il livello 1
 function facile(){
+
+    let rating = 0;
 
     for(let i=1; i <= 100; i++){
         griglia = document.querySelector('.griglia');
@@ -74,6 +74,8 @@ function facile(){
 //funzione per il livello 2
 function medio(){
 
+    let rating = 0;
+
     for(let i=1; i <= 81; i++){
         griglia = document.querySelector('.griglia');
         let box = createDiv('div', 'box-2', i);
@@ -104,6 +106,8 @@ function medio(){
 
 //funzione per il livello 3
 function difficile(){
+
+    let rating = 0;
 
     for(let i=1; i <= 49; i++){
         griglia = document.querySelector('.griglia');
